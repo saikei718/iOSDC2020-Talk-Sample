@@ -50,7 +50,7 @@ jobs:
             ${{ runner.os }}-mint- 
               
       - name: Install Carthage frameworks
-        run: make install-Carthage
+        run: make install-arthage
         
       - name: Generate Xcode project and install Pods
         run: make generate-xcodeproj
