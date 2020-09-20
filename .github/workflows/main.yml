@@ -17,7 +17,7 @@ on:
 env:
   DEVELOPER_DIR: /Applications/Xcode_11.6.app/Contents/Developer
   MINT_PATH: mint/lib
-  MINT_LINK_PATH: mint/bin:  
+  MINT_LINK_PATH: mint/bin
   
 jobs:
   test:
