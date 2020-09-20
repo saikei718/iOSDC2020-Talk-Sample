@@ -16,12 +16,13 @@ on:
       - README.md
 env:
   DEVELOPER_DIR: /Applications/Xcode_11.6.app/Contents/Developer
-  MINT_PATH: mint/lib
-  MINT_LINK_PATH: mint/bin
   
 jobs:
   test:
-    runs-on: ubuntu-latest
+    runs-on: macOS-latest
+    env:
+      MINT_PATH: mint/lib
+      MINT_LINK_PATH: mint/bin
 
     steps:
       - uses: actions/checkout@v2
